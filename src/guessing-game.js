@@ -12,7 +12,6 @@ class GuessingGame {
 
     guess() {
         this.guessNumber = Math.ceil((this.min + this.max) / 2);
-        console.log(this.guessNumber);
         return this.guessNumber;
     }
 
